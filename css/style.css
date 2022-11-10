@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+
+*{
+    font-family: 'poppins', sans-serif;
+    overflow-x: hidden;
+}
+/* custom navbar agar menjadi blur */
+.bg-blur-dark{
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(10px);
+}
+
+.hero{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://cdn.vox-cdn.com/thumbor/5d_RtADj8ncnVqh-afV3mU-XQv0=/0x0:1600x1067/1200x900/filters:focal(672x406:928x662)/cdn.vox-cdn.com/uploads/chorus_image/image/57698831/51951042270_78ea1e8590_h.7.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.panel-content{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(3px);
+}
+
+.text-title{
+    font-size: 2em;
+}
+
+.second{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    /* background-image: url('https://cdn.vox-cdn.com/thumbor/5d_RtADj8ncnVqh-afV3mU-XQv0=/0x0:1600x1067/1200x900/filters:focal(672x406:928x662)/cdn.vox-cdn.com/uploads/chorus_image/image/57698831/51951042270_78ea1e8590_h.7.jpg'); */
+}
+.img-bn img{
+    height: 300px;
+}
+
+@media screen and (max-width: 767px) {
+    .image-brand img{
+        display: none;
+    }
+    .img-bn img{
+        display: none;
+    }
+    .second{
+        height: auto;
+    }
+}
+
+.thrid{
+    width: 100vw;
+    background-image: url('https://img.okezone.com/content/2022/05/09/301/2591148/16-restoran-mewah-di-jakarta-selatan-cocok-buat-dinner-bareng-pasangan-od6EBdWESM.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.panel-nb{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(5px);
+}
+
+.txt{
+    font-size: 2em;
+    color: white;
+    position: center;
+    align-items: center;
+}
+
+.card img {
+    height: 300px;
+}
+
+.text-rate{
+    font-size: 0.8em;
+}
+
+.text-title-cr {
+    font-size: 1.2em;
+}
+
+.fout{
+    width: 100vw;
+    background-image: url('https://img.okezone.com/content/2022/05/09/301/2591148/16-restoran-mewah-di-jakarta-selatan-cocok-buat-dinner-bareng-pasangan-od6EBdWESM.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
